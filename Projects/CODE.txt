@@ -1,0 +1,165 @@
+list on ISBN
+{
+  "ISBN": "978-3-16-148410-0",
+  "title": "Example Book",
+  "author": "John Doe",
+  "genre": "Fiction",
+  "price": 19.99,
+  "publisher": "Publisher X",
+  "publishedDate": "2023-05-15"
+}
+
+
+
+author list
+
+{
+  "author": "Harper Lee",
+  "books": [
+    {
+      "title": "To Kill a Mockingbird",
+      "ISBN": "978-0-06-112008-4",
+      "genre": "Classic Fiction",
+      "price": 12.50,
+      "publisher": "Harper Perennial Modern Classics",
+      "publishedDate": "1960-07-11"
+    },
+    {
+      "title": "Go Set a Watchman",
+      "ISBN": "978-0-06-240985-0",
+      "genre": "Fiction",
+      "price": 15.99,
+      "publisher": "HarperCollins",
+      "publishedDate": "2015-07-14"
+    }
+  ]
+}
+
+
+list by Title
+
+
+{
+  "title": "To Kill a Mockingbird",
+  "books": [
+    {
+      "ISBN": "978-0-06-112008-4",
+      "author": "Harper Lee",
+      "genre": "Classic Fiction",
+      "price": 12.50,
+      "publisher": "Harper Perennial Modern Classics",
+      "publishedDate": "1960-07-11"
+    },
+    {
+      "ISBN": "978-1-846-27824-6",
+      "author": "Harper Lee",
+      "genre": "Classics",
+      "price": 10.50
+
+review
+
+
+{
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "review": {
+    "reviewer": "BookReviewer123",
+    "rating": 4.5,
+    "comment": "A classic that explores themes of racial injustice and moral growth. Harper Lee's narrative style captivates the reader from start to finish."
+  }
+}
+
+
+Register new user. 
+
+{
+  "status": "success",
+  "message": "User successfully registered",
+  "user": {
+    "username": "newuser123",
+    "email": "newuser@example.com",
+    "fullName": "John Doe",
+    "createdAt": "2024-07-01T12:00:00Z"
+  }
+}
+
+Login user
+
+
+{
+  "status": "success",
+  "message": "User logged in successfully",
+  "user": {
+    "username": "newuser123",
+    "email": "newuser@example.com",
+    "fullName": "John Doe",
+    "lastLoggedIn": "2024-07-01T15:30:00Z"
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbG9uZ3RvbjEyMyIsImlhdCI6MTYyNjY0OTY1MH0.YgjGF7DmJ0IXbF1x2Jz9fRtoC7OqE6ckPfNZLJ2yzoA"
+}
+
+
+Add/modify a book review.
+
+{
+  "status": "success",
+  "message": "Review modified successfully",
+  "review": {
+    "reviewId": "123456789",
+    "bookTitle": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "reviewer": "newuser123",
+    "rating": 4.5,
+    "comment": "Upon reflection, I found this book incredibly moving. The themes of injustice and compassion resonate deeply.",
+    "updatedAt": "2024-07-01T19:30:00Z"
+  }
+}
+
+Delete review
+
+{
+  "status": "success",
+  "message": "Review deleted successfully",
+  "deletedReview": {
+    "reviewId": "123456789",
+    "bookTitle": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "reviewer": "newuser123",
+    "rating": 4.5,
+    "comment": "Upon reflection, I found this book incredibly moving. The themes of injustice and compassion resonate deeply.",
+    "deletedAt": "2024-07-01T20:00:00Z"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
